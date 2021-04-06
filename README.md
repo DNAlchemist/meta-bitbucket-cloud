@@ -17,8 +17,8 @@ How that works?
 yarn global add meta
 ```
 
-### Init repositories list 
-To init or refresh repositories list, execute the init_repos.sh script
+### Init repository list 
+To init or refresh repository list, execute the init_repos.sh script
 
 To usage, you need to obtain some environment from your bitbucket account.
 
