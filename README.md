@@ -49,12 +49,12 @@ Useful commands
    meta git status
    ```
    
- - execute a command on child repositories:
+ - execute a command on child repositories
    ```
    meta exec pwd
    ```
    
- - find all project which uses kafka-clients:
+ - find all project which uses kafka-clients
    ```
    ag -l kafka-clients ./**/pom.xml
    ```
