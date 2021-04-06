@@ -23,9 +23,12 @@ To init or refresh repositories list, execute the init_repos.sh script
 To usage, you need to obtain some environment from your bitbucket account.
 
  ```
-export BITBUCKET_WORKSPACE=<bibucket workspace> # https://support.atlassian.com/bitbucket-cloud/docs/what-is-a-workspace/
-export BITBUCKET_TOKEN=<bitbucket app password> # https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/
-export BITBUCKET_USERNAME=<bibucket username> # https://support.atlassian.com/bitbucket-cloud/docs/update-your-username/
+# https://support.atlassian.com/bitbucket-cloud/docs/what-is-a-workspace/
+export BITBUCKET_WORKSPACE=<bibucket workspace> 
+# https://support.atlassian.com/bitbucket-cloud/docs/app-passwords/
+export BITBUCKET_TOKEN=<bitbucket app password>
+# https://support.atlassian.com/bitbucket-cloud/docs/update-your-username/ 
+export BITBUCKET_USERNAME=<bibucket username>
 sh init_repos.sh --help
 ```
 
