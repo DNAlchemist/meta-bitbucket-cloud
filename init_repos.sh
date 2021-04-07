@@ -50,7 +50,7 @@ function fetch_projects() {
 
 function fetch_repositories() {
   local project=$1
-  fetch_repositories_by_link "$BITBUCKET_API_URL/repositories/$BITBUCKET_WORKSPACE?q=project.key=\"$project\""
+  fetch_repositories_by_link "$BITBUCKET_API_URL/repositories/$BITBUCKET_WORKSPACE?q=project.key=\"`echo "$project" | tr '[:lower:]' '[:upper:]'`\""
 }
 
 function fetch_repositories_by_link() {
