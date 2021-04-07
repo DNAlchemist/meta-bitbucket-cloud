@@ -89,8 +89,8 @@ for project in $projects; do
   echo ">>> Fetching repositories for project $project"
   repositories=$(fetch_repositories $project)
   project_lowercase=$(echo "$project" | tr '[:upper:]' '[:lower:]')
-  project_repository=$(echo "$repository" | tr '[:upper:]' '[:lower:]')
   for repository in $repositories; do
+    project_repository=$(echo "$repository" | tr '[:upper:]' '[:lower:]')
     echo $repository
     meta project import $project_lowercase/$repository $BITBUCKET_SSH_URL/$project_repository.git
   done
