@@ -95,3 +95,5 @@ for project in $projects; do
     meta project import $project_lowercase/$repository $BITBUCKET_SSH_URL/$project_repository.git
   done
 done
+
+echo "Done!"
