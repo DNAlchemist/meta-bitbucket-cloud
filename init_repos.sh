@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 
-VERSION="1.0.0"
+VERSION="1.1.0-rc"
 
 if [[ $1 == "--help" ]] || [[ $1 == "-h" ]]; then
   echo
